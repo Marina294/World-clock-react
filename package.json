@@ -2,7 +2,7 @@
   "name": "world-clock",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yoshi-self.github.io/world-clock/",
+  "homepage": "https://github.com/Marina294/World-clock-react",
   "dependencies": {
     "jest-environment-jsdom": "^27.0.6",
     "js-cookie": "^2.2.0",
