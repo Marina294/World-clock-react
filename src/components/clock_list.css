@@ -5,3 +5,10 @@ ul {
 li {
   list-style: none;
 }
+
+.dropDown {
+    margin: 15px auto;
+    width: auto;
+    position: relative;
+    box-sizing: border-box;
+}
