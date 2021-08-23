@@ -14,7 +14,7 @@ export default class App extends Component{
               Check World Time
             </h1>
             <p className="subTitle">
-              Refresh Page! Background will change :D
+              Refresh this Page! Background will change :D
             </p>
           <SearchBar />
           {/* </div> */}
