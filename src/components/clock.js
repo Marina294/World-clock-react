@@ -30,7 +30,7 @@ class Clock extends Component{
     return (
       <div className="wrap">
       <div className="Clock clearfix">
-        <div className="clock-icon"><i class="gg-move-task"></i></div>
+        <div className="clock-icon"><i className="gg-move-task"></i></div>
         <div className="break-word">
         <div className="clock-name">{this.props.timezoneName}</div>
         </div>
@@ -39,9 +39,8 @@ class Clock extends Component{
           {this.getCurrentDate()}<br />
           {this.getDST()}
         </div>
-        <div class="gg-close" className="clock-delete">
-          <button class="gg-close"
-            className="btn float-right"
+        <div className="gg-close clock-delete">
+          <button className="gg-close btn float-right"
             onClick={this.onDeleteClick.bind(this)}
           >×
           </button>
