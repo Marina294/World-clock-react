@@ -1,0 +1,127 @@
+.Clock {
+  height: 7rem;
+  margin-bottom: 1.4rem;
+  border-radius: 10px;
+  width: 100%;
+  color: #efefef;
+  text-shadow: 1px 1px 8px #15151656; 
+  background-color: rgba(236, 240, 245, 0.13);
+  backdrop-filter: blur(10px) opacity(100) brightness(0.9);
+  cursor: pointer;
+}
+
+.Clock .clock-name,
+.Clock .clock-time,
+.Clock .clock-date {
+  float: left;
+}
+
+.clock-icon {
+  padding: 1rem 0.5rem 0rem 1.5rem;
+}
+
+.gg-move-task {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 8px;
+  height: 10px;
+  border-top: 2px solid;
+  border-bottom: 2px solid
+}
+
+.break-word {
+  overflow-wrap: break-word;
+  line-height: 1.9rem;
+}
+
+.clock-name {
+  font-weight: 300;
+  min-width: 17rem;
+  max-width: 17rem;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  padding-top: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.clock-time {
+  font-size: 3.2rem;
+  font-weight: 200;
+  padding-left: 0.7rem;
+  padding-right: 1.2rem;
+  padding-top: 0rem;
+  font-family: yantramanav;
+}
+
+.clock-date {
+  font-size: 96%;
+  font-weight: 300;
+  padding-top: 1rem;
+  line-height: 1.4;
+  font-family: yantramanav;
+}
+
+.clock-delete {
+  height: 2rem;
+  float: right;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  font-size: 1.3rem;
+  font-weight: 200;
+  width: auto;
+  height: auto;
+  border-radius: 100px;
+  color: #f3f3f7;
+  text-shadow: 1px 1px 8px #888282; 
+  background-color: rgba(236, 240, 245, 0);
+}
+
+
+.clock-delete button {
+  width: 100%;
+  margin-top: 0.1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .Clock {
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .clock-name {
+    width: 92%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-left: 4%;
+    padding-left: 10px;
+    float: none;
+  }
+
+  .clock-time {
+    font-size: 35px;
+    font-weight: 200;
+    padding-left: 25px;
+    padding-right: 12px;
+    padding-top: 2px;
+  }
+
+  .clock-date {
+    font-size: 95%;
+    font-weight: 300;
+    padding-top: 10px;
+    line-height: 1.2;
+  }
+
+  .clock-delete {
+    border: 0;
+  }
+}

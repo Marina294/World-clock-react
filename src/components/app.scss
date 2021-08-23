@@ -1,0 +1,34 @@
+body {
+  background-color: #111;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,travel");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+.appTitleBackground {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7), transparent);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+  width: 100vw;
+}
+
+.container {
+  max-width: 40rem;
+}
+
+.appTitle {
+  font-family: source-sans-pro;
+  font-weight: 100;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem 0.5rem 2rem 0.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 8px #59595fc0; 
+}
+

@@ -1,0 +1,96 @@
+.inputForm {
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 38rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  outline: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #f3f3f7;
+  text-shadow: 1px 1px 8px #888282;
+  background-color: rgba(236, 240, 245, 0.13);
+  -webkit-backdrop-filter: blur(10px) opacity(100) brightness(0.9);
+          backdrop-filter: blur(10px) opacity(100) brightness(0.9);
+}
+
+.inputForm:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.inputForm:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.inputForm:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.inputForm:focus::placeholder {
+  opacity: 0;
+}
+
+.inputForm::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  color: #f3f3f7;
+}
+
+.inputForm:-ms-input-placeholder {
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  color: #f3f3f7;
+}
+
+.inputForm::-ms-input-placeholder {
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  color: #f3f3f7;
+}
+
+.inputForm::placeholder {
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  color: #f3f3f7;
+}
+
+@media only screen and (max-width: 567px) {
+  .inputForm {
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #3c3e46;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #3c3e46;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #3c3e46;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #3c3e46;
+  opacity: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.SearchBar .search-alert {
+  float: center;
+  color: #ff0062;
+  height: calc(3.5rem);
+  padding-top: 0.8rem;
+  margin: 0;
+}
+/*# sourceMappingURL=search_bar.css.map */
