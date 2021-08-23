@@ -11,12 +11,6 @@ body {
   overflow: hidden;
 }
 
-.appTitleBackground {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(transparent));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
-  width: 100vw;
-}
-
 .container {
   max-width: 40rem;
 }
@@ -26,8 +20,18 @@ body {
   font-weight: 100;
   font-size: 2rem;
   color: white;
-  padding: 2rem 0.5rem 2rem 0.5rem;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
   text-align: center;
   text-shadow: 1px 1px 8px #59595fc0;
+}
+
+.subTitle {
+  font-family: source-sans-pro;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: white;
+  padding: 0rem 0.5rem 1rem 0.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 6px #59595fc0;
 }
 /*# sourceMappingURL=app.css.map */

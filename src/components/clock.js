@@ -12,7 +12,7 @@ class Clock extends Component{
   }
 
   getCurrentTime() {
-    const dateFormat = 'HH:mm'
+    const dateFormat = 'HH:mm:ss'
     return moment.tz(this.props.timezoneName).format(dateFormat);
   }
 

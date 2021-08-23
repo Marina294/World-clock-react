@@ -11,8 +11,11 @@ export default class App extends Component{
         <div className="container">
           {/* <div className="appTitleBackground"> */}
             <h1 className="appTitle">
-              What time is it in the world?
+              Check World Time
             </h1>
+            <p className="subTitle">
+              Refresh Page! Background will change :D
+            </p>
           <SearchBar />
           {/* </div> */}
           {/* <hr /> */}
