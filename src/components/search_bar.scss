@@ -14,11 +14,6 @@
 //   transition: opacity 0.2s;
 // }
 
-// .wrap {
-
-// }
-
-
 
 .inputForm {
   font-size: 1.5rem;
@@ -41,7 +36,11 @@
     transition: opacity 0.2s ease-in;
     color: #f3f3f7;
   }
-  
+  & + div{
+    z-index: 1;
+    color: rgb(31, 30, 36);
+  }
+
   @media only screen and (max-width: 567px) {
     & {
     font-size: 1.5rem;
@@ -55,10 +54,10 @@
   opacity: 1; 
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+// .dropdown {
+//   position: relative;
+//   display: inline-block;
+// }
 
 
 .SearchBar .search-alert {

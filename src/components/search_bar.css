@@ -54,6 +54,11 @@
   color: #f3f3f7;
 }
 
+.inputForm + div {
+  z-index: 1;
+  color: #1f1e24;
+}
+
 @media only screen and (max-width: 567px) {
   .inputForm {
     font-size: 1.5rem;
@@ -79,11 +84,6 @@
 ::placeholder {
   color: #3c3e46;
   opacity: 1;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 
 .SearchBar .search-alert {
