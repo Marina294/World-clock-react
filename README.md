@@ -7,4 +7,4 @@ Responsive design.
 Demo
 https://check-world-time.netlify.app/
 
-![photo](./assets/world-clock.png)
+![](assets/world-clock.png)
