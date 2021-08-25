@@ -39,7 +39,13 @@
   & + div{
     z-index: 1;
     color: rgb(31, 30, 36);
+    max-width: 10px;
   }
+
+  & + option{
+    max-width: 10px;
+  }
+
 
   @media only screen and (max-width: 567px) {
     & {

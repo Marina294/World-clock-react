@@ -57,6 +57,11 @@
 .inputForm + div {
   z-index: 1;
   color: #1f1e24;
+  max-width: 10px;
+}
+
+.inputForm + option {
+  max-width: 10px;
 }
 
 @media only screen and (max-width: 567px) {
