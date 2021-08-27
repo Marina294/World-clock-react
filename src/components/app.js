@@ -17,6 +17,12 @@ export default class App extends Component{
           <SearchBar />
           <ClockList />
         </div>
+        <footer className="footer">
+          <div>
+          Check World Time by &nbsp; 
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/marina294" >Marina</a>
+          </div>
+        </footer>
       </div>
     );
   }
